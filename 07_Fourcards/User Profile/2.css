@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/07_Fourcards/BGI.png);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.content {
+  height: 530px;
+  width: 600px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.Ali {
+  width: 200px;
+  height: 240px;
+  margin-top: 10px;
+  margin-left: 205px;
+  border: 1px solid black;
+  border-radius: 25%;
+  border-style: none;
+}
+
+.blue {
+  background-color: steelblue;
+}
+
+.text {
+  margin-left: 240px;
+}
+
+.smicons {
+  margin-left: 200px;
+}
+
+.buttons {
+  margin-left: 190px;
+}
+
+.feedback {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-style: none;
+  width: 105px;
+  height: 29px;
+}
+
+.Message {
+  background-color: blue;
+  margin-left: 25px;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-style: none;
+  width: 105px;
+  height: 29px;
+}
+
+.feedback:hover {
+  color: white;
+  background-color: black;
+}
+
+.Message:hover {
+  color: white;
+  background-color: black;
+}
+
+.icons {
+  margin-left: 230px;
+  margin-top: 25px;
+}
+
+.comment {
+  margin-left: 25px;
+}
+
+.share {
+  margin-left: 25px;
+}

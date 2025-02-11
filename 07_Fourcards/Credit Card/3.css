@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  border-style: none;
+  background: #0d7bb2c4;
+  width: 430px;
+  height: 280px;
+  margin-top: 90px;
+}
+
+.card h3 {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.card img {
+  margin-left: 25px;
+}
+
+.cc {
+  border-radius: 5px;
+  border: 1px solid black;
+  border-style: none;
+  width: 70px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.validate {
+  margin-left: 250px;
+}
+
+.cardholder {
+  margin-left: 20px;
+}

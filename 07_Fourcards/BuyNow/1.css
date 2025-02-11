@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Images/bg.png);
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.content {
+  background-color: #080808;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 350px;
+  width: 300px;
+}
+
+.bat {
+  width: 75%;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 12%;
+  padding-top: 20px;
+}
+
+.cat {
+  padding-left: 55px;
+}
+
+.coming {
+  padding-left: 100px;
+  color: yellow;
+}
+
+.buynow {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  margin-left: 40px;
+}
+
+.addcart {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  margin-left: 35px;
+}
+
+.buynow:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.addcart:hover {
+  color: black;
+  background-color: yellow;
+}
